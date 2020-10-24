@@ -37,7 +37,7 @@ def update_label_1(self):
             self.lab5.config(text=dct.get(i))
             self.lab8.config(text='?', bg='white')
             # If random number of the First Main Label is equals to random number of the Fourth Main Label
-            # then it is the right answer and we save it to answer_num variable.
+            # then it is the right answer and we save it to current_answer variable.
             if self.rand_num_1 == self.rand_num_4:
                 self.current_answer = 'ДА'
             else:
@@ -78,7 +78,7 @@ def update_label_4(self):
             self.lab6.config(fg=dct_2.get(i))
             self.lab8.config(text='?', bg='white')
             # If random number of the First Main Label is equals to random number of the Fourth Main Label
-            # then it is the right answer and we save it to answer_num variable.
+            # then it is the right answer and we save it to current_answer variable.
             if self.rand_num_1 == self.rand_num_4:
                 self.current_answer = 'ДА'
             else:
